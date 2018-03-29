@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+}
+
+#overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url('https://amc-theatres-res.cloudinary.com/image/upload/f_auto%2Cfl_lossy%2Cq_auto%2Cw_1024/v1/amc-cdn/general/img/2.0_amcstubs_hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#text2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 30px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#text3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+img {
+    width: 300px;
+}
+
+.fixed-top {
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#intheatres, #comingsoon {
+    padding-top: 42px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#movie-navbar > a {
+     color: white;
+    }
+
+#movie-navbar > a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+#movie-navbar > a:active {
+    color: yellow;
+}
+
+.myreminders, .createaccount, .celebratewithus {
+    padding-top: 42px;
+    background-color: black;
+    padding-bottom: 999px;
+}
+
+i {
+    padding: 20px;
+    color: white;
+}
+
+.myreminders, .createaccount, .celebratewithus h3,span {
+    color: white;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.myreminders button, .createaccount button {
+    margin-top: 10px;
+    font-weight: 700;
+    color: black;
+    background-color:white;
+    border-radius: 2rem;
+    margin-bottom: 10px;
+}
+
+.createaccount span {
+    padding-bottom: 15px;
+}
+
+.myreminders button a {
+    color: black;
+    text-decoration : none;
+}
+
+.myreminders button:hover {
+    cursor: pointer;
+}
+
+.createaccount input, DatePicker {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: black;
+    color: white;
+}
+
+.createaccount > #email {
+    margin-top: 25px;
+}
+
+.form {
+    margin-top: 20px;
+    margin-bottom: 0rem;
+}
+
+DatePicker {
+    color: white;
+    overflow: overlay;
+}
+
+.parent {
+    display: inline-block;
+    position: relative;
+  }
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#overlay {
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+}
+
+#a {
+    text-align: center;
+}
+
+.has-error {
+    border-color: #a94442;
+}
+
+.form-group {
+    margin-bottom: 0;
+}
+
+#date-picker {
+    padding: 40px;
+}
+
+@media (max-width: 600px) {
+    .text-center {
+        float: right;
+    }
+}
