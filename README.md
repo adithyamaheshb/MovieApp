@@ -5,5 +5,5 @@ A basic react application which is a clone of AMC Theatre Mobile App which displ
 2. Type command: "git clone https://github.com/adithyamahesh596/MovieApp.git"
 3. Navigate to the repository and type "npm install" for installing dependencies.
 4. As, I used webpackdev server for this application just type "npm start -s" after installing the dependencies.
-5. Now, the application automatically opens in the browser.
-6. You can see the live demo [here](http://www.location-search.cf)
+5. Now, open the browser and the application is running at "http://localhost:3000".
+6. You can see the live demo at [http://react-movieapp.surge.sh](http://react-movieapp.surge.sh)
